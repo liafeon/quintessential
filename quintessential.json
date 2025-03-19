@@ -1,0 +1,16 @@
+{
+	"id": "Quintessential",
+	"name": "Quintessential",
+	"display_name": "Quintessential",
+	"author": ["Lia"],
+	"description": "Art and mod by Lia! Check out fr0st.dev on Bluesky!",
+	"prefix": "quint",
+	"main_file": "quintessential.lua",
+	"priority": 0,
+	"badge_colour": "874F24",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.0.0~ALPHA-1428c)"
+	]
+}
