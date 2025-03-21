@@ -17,7 +17,7 @@ SMODS.Joker {
         if context.joker_main then
             return {
                 chips = card.ability.extra.chips,
-                card = card
+                message = localize{type='variable', key='a_chips', vars={card.ability.extra.Xmult}},
             }
         elseif context.after then
             if #context.full_hand > card.ability.extra.cards then
