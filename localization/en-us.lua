@@ -18,6 +18,16 @@ return {
                     "more than {C:attention}#2#{} cards",
                 },
             },
+            j_quint_landsend = {
+                name = "Land's End",
+                text={
+                    "{X:mult,C:white}X#2#{} Mult for each",
+                    "copy of your most",
+                    "common playing card",
+                    "in your full deck",
+                    "{C:inactive}(Currently {X:mult,C:white}X#1#{} {C:inactive}Mult)"
+                },
+            },
         },
     },
 }
