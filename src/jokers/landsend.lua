@@ -1,4 +1,4 @@
-SMODS.Joker { 
+SMODS.Joker {
     key = "landsend",
     config = { extra = { Xmult = 1, Xmult_mod = 0.1, base = 1 }},
     unlocked = true,
@@ -7,8 +7,8 @@ SMODS.Joker {
     eternal_compat = false,
     perishable_compat = true,
     rarity = 2,
-    atlas = "atlas",
-    pos = {x = 3, y = 0},
+    atlas = "jokers",
+    pos = {x = 1, y = 3},
     cost = 5,
     loc_vars = function( self, info_queue, card )
         return { vars = { card.ability.extra.Xmult, card.ability.extra.Xmult_mod } }
@@ -39,7 +39,7 @@ SMODS.Joker {
                     max_count = temp_table[v.base.suit][v:get_id()]
                 end
             end
-            
+
             card.ability.extra.Xmult = card.ability.extra.base + card.ability.extra.Xmult_mod * max_count
 
         end

@@ -1,4 +1,4 @@
-SMODS.Joker { 
+SMODS.Joker {
     key = "threeflavours",
     config = { extra = { chips = 120, cards = 3 }},
     unlocked = true,
@@ -7,7 +7,7 @@ SMODS.Joker {
     eternal_compat = false,
     perishable_compat = true,
     rarity = 2,
-    atlas = "atlas",
+    atlas = "jokers",
     pos = {x = 1, y = 0},
     cost = 5,
     loc_vars = function( self, info_queue, card )

@@ -7,7 +7,7 @@ function get_straight(hand, min_length, skip, wrap)
     return ret
 end
 
-SMODS.Joker { 
+SMODS.Joker {
     key = "elizabethtower",
     config = {},
     unlocked = true,
@@ -16,7 +16,7 @@ SMODS.Joker {
     eternal_compat = true,
     perishable_compat = true,
     rarity = 2,
-    atlas = "atlas",
+    atlas = "jokers",
     pos = {x = 0, y = 0},
     cost = 5,
     loc_vars = function(self, info_queue, card)
