@@ -42,34 +42,34 @@ return {
                     "This joker gains {C:chips}+#1#{} Chips",
                     "if played hand contains only",
                     "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
-                    "{C:inactive}(Currently {C:chips}+#1#{}+#2# {C:inactive}Chips)"
+                    "{C:inactive}(Currently {C:chips}+#2# {C:inactive}Chips)"
                 }
             },
             j_quint_rose = {
                 name = "Rose",
                 text = {
-                    "{C:attention}British Cards{} gain",
+                    "{C:attention}British{} cards gain",
                     "{C:mult}+#1#{} Mult when scored"
                 }
             },
             j_quint_clover = {
                 name = "Clover",
                 text = {
-                    "{C:attention}British Cards{} gain",
+                    "{C:attention}British{} cards gain",
                     "{C:money}$#1#{} when scored"
                 }
             },
             j_quint_thistle = {
                 name = "Rose",
                 text = {
-                    "{C:attention}British Cards{} gain",
+                    "{C:attention}British{} cards gain",
                     "{C:chips}+#1#{} Chips when scored"
                 }
             },
             j_quint_daffodil = {
                 name = "Rose",
                 text = {
-                    "{C:attention}British Cards{} gain",
+                    "{C:attention}British{} cards gain",
                     "{X:mult,C:white}X#1#{} Mult when scored"
                 }
             },
@@ -82,8 +82,8 @@ return {
                     "{C:inactive}(Currently {X:mult,C:white}X#2#{} {C:inactive}Mult)"
                 }
             },
-            j_quint_licensetokill = {
-                name = "License to Kill",
+            j_quint_licencetokill = {
+                name = "Licence to Kill",
                 text = {
                     "Retrigger played {C:attention}#1#{}s",
                     "{C:attention}#2#{} additional times"
