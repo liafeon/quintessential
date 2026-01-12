@@ -44,12 +44,6 @@ SMODS.Joker {
                         card = card,
                     }
                 end
-                G.E_MANAGER:add_event(Event({
-                    func = function()
-                        card.children.center:set_sprite_pos({x = 4 - card.ability.extra.cards, y = 0})
-                        return true
-                    end
-                }))
                 return {
                     message = localize('k_eaten_ex'),
                     card = card,
